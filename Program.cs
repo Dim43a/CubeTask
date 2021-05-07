@@ -10,6 +10,8 @@ namespace Cube
         {
             string s = "abcd";
             string t = MixAndShow(s);
+            AddedChar(s,t);
+            
 
 
             //************* Using Linq
