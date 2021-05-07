@@ -6,7 +6,7 @@ namespace Cube
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             
             string s = "abcd";
