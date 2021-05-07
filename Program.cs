@@ -81,7 +81,7 @@ namespace Cube
 
             foreach (var item in tempT1)
             {
-                Console.WriteLine(item.ToString());
+                Console.WriteLine(item);
             }
 
             return output;
