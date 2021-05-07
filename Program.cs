@@ -14,7 +14,7 @@ namespace Cube
             
 
 
-            //************* Using Linq
+            //*Using Linq
             //Random rnd = new Random();
             //string str = "abcd";
             //char randomChar = (char)rnd.Next('a', 'z');
@@ -22,7 +22,7 @@ namespace Cube
             //string rand = new string(str.ToCharArray().OrderBy(s => (rnd.Next(2) % 2) == 0).ToArray()); 
             //Console.WriteLine(str);
             //Console.WriteLine(rand);
-            //**************
+           
 
 
             Console.ReadKey();
