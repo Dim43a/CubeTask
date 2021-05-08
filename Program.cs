@@ -15,7 +15,7 @@ namespace Cube
 
 
             string t = Shuffler(s);
-            Console.WriteLine("s : {0}", s);
+            Console.WriteLine("t : {0}", t);
             
             AddedLetter(s, t);
 
