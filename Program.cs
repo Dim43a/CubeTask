@@ -10,10 +10,13 @@ namespace Cube
         {
             
             string s = "abcd";
+            Console.WriteLine("s : {0}", s);
 
 
 
             string t = Shuffler(s);
+            Console.WriteLine("s : {0}", s);
+            
             AddedLetter(s, t);
 
 
@@ -24,11 +27,9 @@ namespace Cube
         {
             Random rnd = new Random();
             char randomChar = (char)rnd.Next('a', 'z');
-            Console.WriteLine("s : {0}", s);
             s += randomChar;
 
             string rand = new string(s.ToCharArray().OrderBy(s => (rnd.Next(2) % 2) == 0).ToArray()); ////Using LINQ
-            Console.WriteLine("t : {0}",rand);
 
             return rand;
 
